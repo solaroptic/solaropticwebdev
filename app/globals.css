@@ -6,11 +6,12 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  scrollbar-color: #581c87 black;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 251, 251, 251;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
@@ -25,9 +26,73 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
+main {
+  background-size: 100% 100%;
+}
+div {
+  scrollbar-color: #581c87 black;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+.digits {
+  z-index: 1;
+  min-width: 7rem;
+}
+.digits::before {
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 70%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: color-change 20s infinite;
+  border-radius: 40%;
+  /* animation-fill-mode: forwards; */
+  filter: blur(30px);
+  z-index: -1;
+}
+
+.card-blur-cyan::before,
+.card-blur-purple::before {
+  content: "";
+  background-color: #67e8f935;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(16rem);
+  z-index: -1;
+  animation: grow 15s;
+  animation-fill-mode: forwards;
+}
+.card-blur-purple::before {
+  background-color: #581c8755;
+}
+@keyframes color-change {
+  0% {
+    background-color: #00cdff44;
+  }
+  50% {
+    background-color: #581c8788;
+  }
+  100% {
+    background-color: #00cdff44;
+  }
+}
+@keyframes grow {
+  0% {
+    width: 5%;
+    height: 5%;
+    filter: blur(0.5rem);
+  }
+  100% {
+    width: 80%;
+    height: 80%;
+    filter: blur(16rem);
   }
 }
