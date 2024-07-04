@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Solar-Optic Portfolio Project
 
-## Getting Started
+## NEXT/Typescript/Tailwind
 
-First, run the development server:
+This project was intended to be a form of resume for who I am and what I'm doing in web development. It contains a hub for my main projects, a section explaining services I offer and ways to connect with me. Secondarily, I used this opportunity to experiment with more advanced CSS and animations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Additionally, this project allowed me to get more experience with Nextjs and Tailwind:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Simple interface for the importance of function
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 3js animations (3d planet orbiting)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Space aesthetic: I wanted it to be simple but revealing capabilities of much more
 
-## Learn More
+- a little fun with parallax on scroll (astronaut)
 
-To learn more about Next.js, take a look at the following resources:
+![Solar Optic home page](https://res.cloudinary.com/duysbh0j0/image/upload/v1720106185/Portfolio_ss_a2ur6k.jpg)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Networking
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I really wanted this to give me the maximum return on networking.
 
-## Deploy on Vercel
+I also look forward to taking suggestions from users, adding features, and taking feedback.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Content License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This blog content is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+## To run on your own machine:
+
+Prerequisites:
+
+Node.js and npm (or yarn): Ensure you have Node.js and either npm (Node Package Manager) or yarn installed on your system. You can download them from the official websites:
+Node.js: https://nodejs.org/en
+npm (included with Node.js installation)
+yarn: https://yarnpkg.com/
+Git version control (optional): While not strictly necessary, having Git installed allows you to clone the project from GitHub and manage your local copy. You can download it from: https://git-scm.com/downloads
+Steps:
+
+Clone the Repository:
+
+Open a terminal window.
+
+Navigate to the directory where you want to clone the project.
+
+Use the git clone command followed by the URL of your GitHub repository. For example:
+
+Bash
+git clone https://github.com/your-username/your-repo-name.git
+Use code with caution.
+content_copy
+Replace your-username with your GitHub username and your-repo-name with the actual name of your repository.
+
+Install Dependencies:
+
+Navigate to the cloned project directory using cd your-repo-name.
+
+Install the project's dependencies using either npm install or yarn install:
+
+Bash
+
+`npm install # or yarn install`
+
+This command will download all the necessary packages listed in your project's package.json file.
+
+Start the Development Server (Optional):
+
+If your project has a development server script defined in package.json (usually named start), you can run it to launch the application locally:
+
+Bash
+
+`npm start  # or yarn start`
+
+This will typically start a development server that allows you to see the application running in your browser (usually at http://localhost:3000 or a similar address).
+
+Additional Notes:
+
+Environment Variables: This project uses environment variables, you might need to set your own before running it.
+
+Fork the Repository: Instead of cloning, you can fork the repository on GitHub to create your own copy. This allows you to make changes and contribute back to the original project.
+Pull Updates: Periodically pull updates from the original repository to keep your local copy in sync with the latest changes.
