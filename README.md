@@ -75,7 +75,5 @@ This will typically start a development server that allows you to see the applic
 
 Additional Notes:
 
-Environment Variables: This project uses environment variables, you might need to set your own before running it.
-
 Fork the Repository: Instead of cloning, you can fork the repository on GitHub to create your own copy. This allows you to make changes and contribute back to the original project.
 Pull Updates: Periodically pull updates from the original repository to keep your local copy in sync with the latest changes.
