@@ -8,7 +8,7 @@ const nasal = localFont({ src: "./nasalization-rg.ttf" });
 
 export const metadata: Metadata = {
   title: "Solar Optic",
-  description: "Looking outside the box, from outside the box.",
+  description: "Looking outside the box, FROM outside the box.",
 };
 
 export default function RootLayout({

@@ -12,30 +12,33 @@ export default function Page() {
       </h1>
       <div className="flex flex-col w-11/12 md:w-2/4 text-base md:text-lg font-mono  ">
         <p className="py-2">
-          I'm a web developer, with 2.5 years experience in Javascript and
-          React. I'm comfortable with networking (CCNA 2020-23) and web security
-          (CompTIA Security+ 2021-2024) going back almost 4 years, and now
-          making headwinds into EVM-based blockchains with Solidity.
+          I'm a web developer and proud Wacoan with almost 3 years experience
+          building websites in Javascript and React. I've been certified (CCNA)
+          in networking and (CompTIA Sec+) web security. I'm available for
+          Full-Stack jobs as I've built servers and databases for dozens of
+          projects.
         </p>
         <p className="py-2">
-          Focusing on apps for locals that improve our community, I'm working on
-          projects that advance my NEXT.js in Typescript skills. Parallel to
-          that, I continue to develop my MERN experience and backend development
-          with Node, MongoDb, MySQL, and GraphQL. My styling is often done in
-          CSS modules, but I'm working with more Tailwind lately. Java, Solidity
-          and Angular work coming soon...
+          Outside of freelance work, I've been focusing on apps for locals that
+          involve our community.{" "}
+          <a className="text-cyan-300" href="https://growwaco.org/">
+            Grow Waco
+          </a>{" "}
+          is one such project that allows regular people to make and vote on
+          proposals for Waco. Have any ideas you'd like to see come to life? Let
+          me know! Fellow devs welcome for collaboration.
         </p>
         <p className="py-2">
           My clients are real people who truly deserve a sincere effort for
-          hard-earned money. I will make it right. In teamwork, I look to find
-          my place with a sharp team in an environment that builds mutual
-          purpose from the inside-out.
+          their hard-earned money. I will make it right. I'm a listener and I
+          can help you make your project a reality.
         </p>
 
         <p className="py-2 self-center ">Skills & Technology:</p>
         <p className="py-2">
           NEXT | React | Typescript | Solidity | Javascript | Node | Redux/RTK |
-          Git | MERN | SQL | Tailwind | Networking | Security
+          Git | MERN | SQL | Tailwind | Networking | Security | Design |
+          Graphics | GIMP
         </p>
       </div>
       <div className="flex flex-col md:flex-row gap-1 md:gap-4 mt-4 items-center">
