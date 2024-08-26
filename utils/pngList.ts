@@ -18,7 +18,7 @@ export const images = [
     alt: "Project Fabian",
     id: "3",
     category: "Messaging",
-    uri: "https://fabian-project1.onrender.com/",
+    uri: "https://res.cloudinary.com/duysbh0j0/video/upload/v1724698473/FabisClip_o7xtfk.mp4",
   },
   {
     src: "/Fruit620.avif",
@@ -74,7 +74,7 @@ export const images = [
     alt: "Fresh Notes",
     id: "11",
     category: "Notes",
-    uri: "https://freshnotes.onrender.com",
+    uri: "https://res.cloudinary.com/duysbh0j0/video/upload/v1724698477/FreshNotes_foubjj.mp4",
   },
   {
     src: "/MH620.avif",
